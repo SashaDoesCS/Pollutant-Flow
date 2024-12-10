@@ -27,14 +27,19 @@ from tqdm import tqdm
 There are several programs to assist with downloading. To use the program to download information, you will need to find the pollutant map for your state.
 Here is the order in which the programs are meant to be used:
 
-ExtractData
-overpass json processing
-simplify geometries 
-simplify_geopackages
-repair geojson file
 
-Combine geodata and pollutant data
-pickle file
+1. ExtractData
+
+2. overpass json processing
+
+3. simplify geometries 
+
+4. simplify_geopackages
+
+5. repair geojson file
+
+6. Combine geodata and pollutant data
+7. pickle file
 
 With this you should have a file called combined_river_pollutants.pkl 
 If this combined successfully then it should be able to load using main and run the simulation 
